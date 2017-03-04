@@ -1,0 +1,16 @@
+<ion-view view-title="Home">
+  <ion-content>
+    <ion-list>
+      <div class="list card" ng-repeat="place in places">
+
+        <div class="item item-body">
+        <a href="#/tab/home/{{place.id}}">
+          <img class="full-image"  ng-src="{{place.photo}}">
+        </a>
+          <p>{{place.name}}</p>
+        </div>
+
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>
