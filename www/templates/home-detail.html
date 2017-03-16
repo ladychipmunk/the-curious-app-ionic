@@ -6,9 +6,19 @@
 -->
 <ion-view view-title="{{place.name}}">
   <ion-content class="padding">
-    <img ng-src="{{place.photo}}" style="width: 64px; height: 64px">
+<div class="list card">
+
+  
+
+  <div class="item item-body">
+    <img class="full-image" src="{{place.photo}}">
     <p>
       {{place.info}}
-    </p>
+    
+  </div>
+
+</div>
   </ion-content>
 </ion-view>
+
+

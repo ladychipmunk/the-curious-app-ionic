@@ -17,6 +17,8 @@ angular.module('starter.controllers', [])
   })
   console.log(locations);
 
+  // parseFloat so it reads the full coordenade
+
   locations.forEach(function(location, i){
     var marker = new google.maps.Marker({
       position: location,
